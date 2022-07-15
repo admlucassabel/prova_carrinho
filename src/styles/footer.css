@@ -1,0 +1,25 @@
+
+.row{
+    display: flex;
+}
+
+.container-footer{
+    /* text-align: center; */
+    border-bottom: 1px solid grey;
+    border-top: 1px solid grey;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+
+}
+
+.container-total{
+    /* text-align: center; */
+}
+
+.container-price{
+    text-align: right;
+}
+
