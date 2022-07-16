@@ -5,7 +5,9 @@ import '../styles/Font.css';
 function Header() {
   return (
     <div className="container-head">
-      <h3>Meu carrinho</h3>
+      <div className='row'>
+        <h3>Meu carrinho</h3>
+      </div>
     </div>
   );
 }

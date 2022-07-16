@@ -1,10 +1,10 @@
 .container-footer {
     /* text-align: center; */
-    border-bottom: 1px solid grey;
-    border-top: 1px solid grey;
-    bottom: 60px;
+    border-bottom: 2px solid grey;
+    border-top: 2px solid grey;
+    bottom: 10vh;
     left: 0;
-    height: 40px;
+    height: 80px;
     position: fixed;
     width: 100%;
 
@@ -18,10 +18,11 @@
 .container-total {
     text-align: left;
     padding-left: 0;
+    
 }
 
 .row {
     position: relative;
-    transform: translatey(-50%);
-    top: 50%;
+    transform: translatey(-60%);
+    top: 60%;
 }
