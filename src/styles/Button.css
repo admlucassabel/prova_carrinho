@@ -1,0 +1,14 @@
+
+.container-button{
+    text-align: center;
+    bottom: 10px;
+    position: fixed;
+    left: 0;
+    height: 40px;
+    width: 100%;
+}
+
+.row{
+    margin-left: 20px;
+    margin-right: 20px;
+}

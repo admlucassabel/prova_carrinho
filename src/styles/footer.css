@@ -1,13 +1,8 @@
-
-.row{
-    display: flex;
-}
-
-.container-footer{
+.container-footer {
     /* text-align: center; */
     border-bottom: 1px solid grey;
     border-top: 1px solid grey;
-    bottom: 0;
+    bottom: 60px;
     left: 0;
     height: 40px;
     position: fixed;
@@ -15,11 +10,18 @@
 
 }
 
-.container-total{
-    /* text-align: center; */
-}
-
-.container-price{
+.container-price {
     text-align: right;
+    padding-right: 0;
 }
 
+.container-total {
+    text-align: left;
+    padding-left: 0;
+}
+
+.row {
+    position: relative;
+    transform: translatey(-50%);
+    top: 50%;
+}
