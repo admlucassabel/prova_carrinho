@@ -1,15 +1,20 @@
+
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-// import App from './App';
-import SelectCart from './Initializer/SelectCart';
-import reportWebVitals from './reportWebVitals';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import SelectCart from './Initializer/SelectCart'
+import App from './App'
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
-  <React.StrictMode>
-    <SelectCart />
-  </React.StrictMode>
-);
+    (
+        <Router>
+                <Routes>
+                    <Route exact path="/" element={<SelectCart />}/>
+                    <Route path="/app" element={<App />}/>
+                </Routes>
+        </Router>
+));
 
-reportWebVitals();
