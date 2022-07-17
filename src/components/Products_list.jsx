@@ -9,14 +9,15 @@ import { useLocation } from "react-router-dom";
 console.log("TESTE")
 
 function Products() {
-  const {state} = useLocation();
+  const { state } = useLocation();
   console.log(state)
 
   return (
-    <div className="container-list">{state.items.map((item) => {
-        <img src={console.log(item.imageUrl)}></img>
-     })}
-      
+    <div className="container-list">{state.items.map((item, index) => {
+        return (
+            <img key={item.id} src={item.imageUrl} alt="image" />
+        )
+      })}
     </div>
   );
 }
