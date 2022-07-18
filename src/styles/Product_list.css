@@ -1,0 +1,36 @@
+.row img {
+    width: auto;
+    height: 200px;
+    border: 2px solid rgb(224, 218, 218);
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    direction: ltr;
+  }
+
+.product {
+    position: relative;
+    transform: translatey(-5%);
+    top: 5%;
+    margin-bottom: 15px;
+}
+
+.container-list {
+    /* border-bottom: 2px solid grey;
+    border-top: 2px solid grey; */
+    top: 11vh;
+    left: 0;
+    height: 70%;
+    position: fixed;
+    width: 100%;
+    overflow-y: scroll;
+    overflow-x: scroll;
+}
+
+.product-name{
+    left: 0;
+}
+.h6 {
+    color: rgb(201, 191, 191);
+}
